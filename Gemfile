@@ -8,7 +8,13 @@ gem 'bootstrap-sass', '3.4.1'
 
 gem 'bootsnap',   '1.7.2', require: false
 
+gem 'faker', '1.6'
+
 gem 'bcrypt', '3.1.13'
+
+gem 'will_paginate', '3.3.0'
+
+gem 'bootstrap-will_paginate', '1.0.0'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~> 1.3.13'
 # Use SCSS for stylesheets
