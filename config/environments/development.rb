@@ -43,4 +43,21 @@ config.webpacker.check_yarn_integrity = true
   # config.action_view.raise_on_missing_translations = true
 
   config.assets.compile = true
+
+  config.action_mailer.raise_delivery_errors = false
+  host = 'localhost:3000' # Don't use this literally; use your local dev host instead
+  # Use this on the cloud IDE.
+#  config.action_mailer.default_url_options = { host: host, protocol: 'http' }
+  # Use this if developing on localhost.
+  config.action_mailer.default_url_options = { host: host, protocol: 'http' }
+  config.action_mailer.delivery_method = :smtp
+config.action_mailer.smtp_settings = {
+  :user_name => '12a8053f260341',
+  :password => '972163b1e6492e',
+  :address => 'smtp.mailtrap.io',
+  :domain => 'smtp.mailtrap.io',
+  :port => '2525',
+  :authentication => :cram_md5
+}
+  
 end
