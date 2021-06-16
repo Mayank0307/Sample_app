@@ -20,6 +20,7 @@ gem 'mini_magick',             '3.8.0'
 
 gem 'fog',                     '1.36.0'
 
+
 gem 'bootstrap-will_paginate', '1.0.0'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~> 1.3.13'
@@ -45,6 +46,8 @@ gem 'minitest', group: :test
 gem 'minitest-reporters', group: :test
 
 gem 'webpacker', '~> 3.2'
+
+gem 'nokogiri', '~> 1.6'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

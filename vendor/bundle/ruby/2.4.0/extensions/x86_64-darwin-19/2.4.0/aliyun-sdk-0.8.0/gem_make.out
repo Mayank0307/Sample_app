@@ -1,0 +1,16 @@
+current directory: /Users/loconav/sample_app/vendor/bundle/ruby/2.4.0/gems/aliyun-sdk-0.8.0/ext/crcx
+/Users/loconav/.rbenv/versions/2.4.9/bin/ruby -r ./siteconf20210611-60844-7xb1vi.rb extconf.rb
+creating Makefile
+
+current directory: /Users/loconav/sample_app/vendor/bundle/ruby/2.4.0/gems/aliyun-sdk-0.8.0/ext/crcx
+make "DESTDIR=" clean
+
+current directory: /Users/loconav/sample_app/vendor/bundle/ruby/2.4.0/gems/aliyun-sdk-0.8.0/ext/crcx
+make "DESTDIR="
+compiling crc64_ecma.c
+compiling crcx.c
+linking shared-object aliyun/crcx.bundle
+
+current directory: /Users/loconav/sample_app/vendor/bundle/ruby/2.4.0/gems/aliyun-sdk-0.8.0/ext/crcx
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 crcx.bundle ./.gem.20210611-60844-5z0r6s/aliyun
